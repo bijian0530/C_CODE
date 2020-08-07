@@ -1,0 +1,8 @@
+﻿  game.c
+F:\visio studio\练习案例\三子棋\game.c(4,21): warning C4028: 形参 1 与声明不同
+  test.c
+F:\visio studio\练习案例\三子棋\game.h(1,1): warning C4005: “_CRT_SECURE_NO_WARNINGS”: 宏重定义
+F:\visio studio\练习案例\三子棋\test.c(1): message : 参见“_CRT_SECURE_NO_WARNINGS”的前一个定义
+F:\visio studio\练习案例\三子棋\test.c(22,18): warning C4133: “函数”: 从“char [3][3]”到“int (*)[3]”的类型不兼容
+  正在生成代码...
+  三子棋游戏.vcxproj -> C:\Users\毕健\source\repos\三子棋游戏\Debug\三子棋游戏.exe

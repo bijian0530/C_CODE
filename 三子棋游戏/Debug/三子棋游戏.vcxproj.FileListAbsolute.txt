@@ -1,0 +1,2 @@
+C:\Users\毕健\source\repos\三子棋游戏\Debug\三子棋游戏.exe
+C:\Users\毕健\source\repos\三子棋游戏\Debug\三子棋游戏.pdb
