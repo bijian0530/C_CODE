@@ -1,0 +1,2 @@
+E:\vs 2019\gihub 仓库\C_CODE\test_2020_8_8\x64\Debug\test_2020_8_11.exe
+E:\vs 2019\gihub 仓库\C_CODE\test_2020_8_8\x64\Debug\test_2020_8_11.pdb
