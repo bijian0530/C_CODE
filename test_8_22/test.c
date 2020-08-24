@@ -181,25 +181,26 @@
 //}
 
 
-#include<stdio.h>
-void mulform(int i)
-{
-	int j = 0;
-	for (j = 1; j <= i; j++)
-	{
-		printf("%-2d*%-2d=%-2d ", i, j, i * j);
-	}
-}
-int main()
-{
-	int i = 0;
-	int j = 0;
-	int a = 0;
-	scanf("%d", &a);
-	for (i = 1; i <= a; i++)
-	{
-		mulform(i);
-		printf("\n");
-	}
-	return 0;
-}
+//#include<stdio.h>
+//void mulform(int i)
+//{
+//	int j = 0;
+//	for (j = 1; j <= i; j++)
+//	{
+//		printf("%-2d*%-2d=%-2d ", i, j, i * j);
+//	}
+//}
+//int main()
+//{
+//	int i = 0;
+//	int j = 0;
+//	int a = 0;
+//	scanf("%d", &a);
+//	for (i = 1; i <= a; i++)
+//	{
+//		mulform(i);
+//		printf("\n");
+//	}
+//	return 0;
+//}
+
