@@ -313,33 +313,6 @@
 //	return 0;
 //}
 
-
-
-//#include<stdio.h>
-//#include<string.h>
-//void reverse_string(char* str)
-//{
-//	int* left = str;
-//	int* right = str + strlen(str) - 1;
-//	while (left < right)
-//	{
-//		char tmp = *left;
-//		*left = *right;
-//		*right = tmp;
-//		left++;
-//		right--;
-//	}
-//}
-//int main()
-//{
-//	char arr[] = {0};;
-//	scanf("%s", arr);
-//	reverse_string(arr);
-//	printf("%s ", arr);
-//	return 0;
-//}
-
-
 //#include<stdio.h>
 //#include<string.h>
 //int my_strlen(char* str)
@@ -372,6 +345,53 @@
 //	printf("%s", arr);
 //	return 0;
 //}
+
+//#include<stdio.h>
+//#include<string.h>
+//void reverse_string(char* s)
+//{
+//	char* left = s;
+//	int len = strlen(s);
+//	char* right = s+len- 1;
+//	while (left < right)
+//	{
+//		char tmp = *left;
+//		*left = *right;
+//		*right = tmp;
+//		left++;
+//		right--;
+//	}
+//}
+//int main()
+//{
+//	char arr[] = "abcdef";
+//	reverse_string(arr);
+//	printf("%s", arr);
+//	return 0;
+//}
+
+
+#include<stdio.h>
+void reverse_string(char arr[])
+{
+	char tmp = arr[0];
+	int len = strlen(arr);
+	arr[0] = arr[len-1];
+	arr[len - 1]='\0';
+	if (strlen(arr + 1) > 1)
+	{
+		reverse_string(arr + 1);
+	}
+		arr[len - 1] = tmp;
+	
+}
+int main()
+{
+	char arr[] ="abcdef";
+	reverse_string(arr);
+	printf("%s",arr);
+	return 0;
+}
 
 //#include<stdio.h>
 //double power(int n, int k)

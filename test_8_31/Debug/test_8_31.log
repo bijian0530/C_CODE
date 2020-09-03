@@ -1,0 +1,4 @@
+﻿  test.c
+E:\vs 2019\gihub 仓库\C_CODE\test_8_31\test.c(327,13): warning C4047: “return”:“char *”与“int”的间接级别不同
+E:\vs 2019\gihub 仓库\C_CODE\test_8_31\test.c(317,1): warning C4133: “初始化”: 从“char *”到“int *”的类型不兼容
+  test_8_31.vcxproj -> E:\vs 2019\gihub 仓库\C_CODE\test_8_31\Debug\test_8_31.exe
